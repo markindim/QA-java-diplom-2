@@ -15,25 +15,4 @@ public class UserGenerator {
                 .name(faker.name().fullName())
                 .build();
     }
-
-    public CreateUser getRandomUserWithNotEmail() {
-        return CreateUser.builder()
-                .password(RandomStringUtils.randomAlphabetic(10))
-                .name(faker.name().fullName())
-                .build();
-    }
-
-    public CreateUser getRandomUserWithNotPassword() {
-        return CreateUser.builder()
-                .email(String.format("%s@yandex.ru", faker.name().username()))
-                .name(faker.name().fullName())
-                .build();
-    }
-
-    public CreateUser getRandomUserWithNotName() {
-        return CreateUser.builder()
-                .email(String.format("%s@yandex.ru", faker.name().username()))
-                .password(RandomStringUtils.randomAlphabetic(10))
-                .build();
-    }
 }

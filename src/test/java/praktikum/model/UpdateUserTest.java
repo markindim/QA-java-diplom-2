@@ -71,7 +71,7 @@ public class UpdateUserTest {
     @DisplayName("Обновление данных пользователя без авторизации. Изменение поля Email")
     @Description("Негативная проверка изменения поля email пользователя без авторизации пользователя")
     public void updateUserWithOutLoginChangeEmail() {
-        user.setEmail(String.format("%s@yandex.ru", RandomStringUtils.randomAlphabetic(8)));
+        user.setEmail(String.format("%s@yandex.ru", faker.name().username()));
         ValidatableResponse response = userClient.updateUserWithOutLogin(user);
         response.assertThat().statusCode(SC_UNAUTHORIZED).body("success", equalTo(false));
     }
@@ -80,7 +80,7 @@ public class UpdateUserTest {
     @DisplayName("Обновление данных пользователя без авторизации. Изменение поля Password")
     @Description("Негативная проверка изменения поля password пользователя без авторизации пользователя")
     public void updateUserWithOutLoginChangePassword() {
-        user.setPassword(String.format(RandomStringUtils.randomAlphabetic(10)));
+        user.setPassword(RandomStringUtils.randomAlphabetic(10));
         ValidatableResponse response = userClient.updateUserWithOutLogin(user);
         response.assertThat().statusCode(SC_UNAUTHORIZED).body("success", equalTo(false));
     }
