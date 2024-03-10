@@ -15,11 +15,16 @@ public class IngredientGenerator {
     List<IngredientData> ingredients = ingredient.getData();
 
     public Map<String, String[]> getCorrectIngredients() {
+        Map<String, String[]> ingredientMap = new HashMap<>();
         String[] hashIngredient = new String[ingredients.size()];
-        for (int i = 0; i < hashIngredient.length; i++) {
-            hashIngredient[i] = ingredients.get(i).get_id();
+
+        int i = 0;
+        for (IngredientData ingredient : ingredients) {
+            hashIngredient[i++] = ingredient.get_id();
         }
+
         ingredientMap.put("ingredients", hashIngredient);
+
         return ingredientMap;
     }
 

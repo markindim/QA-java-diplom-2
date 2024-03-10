@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="praktikum.model.LoginUserTest" time="3.023" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="praktikum.model.LoginUserTest" time="2.995" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.21_9\bin"/>
-    <property name="sun.java.command" value="C:\Users\marki\AppData\Local\Temp\surefire9706629342542669129\surefirebooter-20240309144407464_3.jar C:\Users\marki\AppData\Local\Temp\surefire9706629342542669129 2024-03-09T14-44-06_957-jvmRun1 surefire-20240309144407464_1tmp surefire_0-20240309144407464_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\marki\AppData\Local\Temp\surefire9706277395592078544\surefirebooter-20240310161100815_3.jar C:\Users\marki\AppData\Local\Temp\surefire9706277395592078544 2024-03-10T16-11-00_466-jvmRun1 surefire-20240310161100815_1tmp surefire_0-20240310161100815_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\marki\Diplom\QA-java-diplom-2\target\test-classes;C:\Users\marki\Diplom\QA-java-diplom-2\target\classes;C:\Users\marki\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\marki\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\marki\.m2\repository\io\qameta\allure\allure-junit4\2.25.0\allure-junit4-2.25.0.jar;C:\Users\marki\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\marki\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\marki\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\marki\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\marki\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\marki\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\marki\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\marki\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\marki\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\marki\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\marki\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\marki\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\marki\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\marki\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\marki\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\marki\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\marki\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\marki\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\marki\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\marki\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\marki\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\marki\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\marki\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\marki\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\marki\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\marki\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\marki\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\marki\.m2\repository\net\datafaker\datafaker\1.9.0\datafaker-1.9.0.jar;C:\Users\marki\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\marki\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\marki\AppData\Local\Temp\surefire9706629342542669129\surefirebooter-20240309144407464_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\marki\AppData\Local\Temp\surefire9706277395592078544\surefirebooter-20240310161100815_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.21+9-LTS"/>
@@ -63,7 +63,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="loginUser" classname="praktikum.model.LoginUserTest" time="0.992">
+  <testcase name="loginUser" classname="praktikum.model.LoginUserTest" time="1.029">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
 Proxy:			<none>
@@ -77,35 +77,35 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "michal.stroman@yandex.ru",
-    "password": "vRCfRVCbrg",
-    "name": "Darcy Erdman"
+    "email": "gerardo.marks@yandex.ru",
+    "password": "byyqlovSJC",
+    "name": "Mrs. Jc Ryan"
 }
 HTTP/1.1 200 OK
-Date: Sat, 09 Mar 2024 11:44:32 GMT
+Date: Sun, 10 Mar 2024 13:11:23 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmEwOWVkMjgwMDAxYjNjODYxYiIsImlhdCI6MTcwOTk4NDY3MiwiZXhwIjoxNzA5OTg1ODcyfQ.42Mp54J_vevfmLoiKcAAL3odlvKhUCYIbmQ3NVTeXGQ
-ETag: W/"177-aLhINGfd/meLnrG7SwbzOHh2P+I"
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdiOWVkMjgwMDAxYjNjOWVkZiIsImlhdCI6MTcxMDA3NjI4MywiZXhwIjoxNzEwMDc3NDgzfQ.Q0mgGgkAxQx3faryd_qpaSubLHKM_OldQHX6kO631OI
+ETag: W/"176-/ruXkhnLsYt1lSI8EEnsxertSYo"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EMHsI4n5QobIwGnkKyPm8XyP%2Bv4qj8fTjrZnfKVZtZOwXlrTQHvNp0AQ9tPrVz%2B27tI4bvARaTQFE5%2BFBsDlgVuHiY95FenJkgfGIqZJVwLPrsAfyG5%2Bq73pvM%2FNrsssvbtqKVTsEGtM0Ou5W9u4nwgwDbg%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=03V%2F78pZQcHGHEg2AQp7R4pWBiBkbH3VRArmxnDq22MKXzveJnhcyiI%2F3HHDnMoFCH%2FrIGdHyNUHXnoA5or8Gx%2FeYqdFD88GELKNADkaZL7kJDs7FO2z2kPlwLIA89Hl7wMnBC%2Fcs09q5Nzr4cViCGo2AR4%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad0494f9f3614-FRA
+CF-RAY: 86238ce60c8665c1-FRA
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
 {
     "success": true,
     "user": {
-        "email": "michal.stroman@yandex.ru",
-        "name": "Darcy Erdman"
+        "email": "gerardo.marks@yandex.ru",
+        "name": "Mrs. Jc Ryan"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmEwOWVkMjgwMDAxYjNjODYxYiIsImlhdCI6MTcwOTk4NDY3MiwiZXhwIjoxNzA5OTg1ODcyfQ.42Mp54J_vevfmLoiKcAAL3odlvKhUCYIbmQ3NVTeXGQ",
-    "refreshToken": "b469957ccbe21be72ec213d2824f2a17d764eb27b145573e7f28b9106391b946b3d180d418a14ae6"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdiOWVkMjgwMDAxYjNjOWVkZiIsImlhdCI6MTcxMDA3NjI4MywiZXhwIjoxNzEwMDc3NDgzfQ.Q0mgGgkAxQx3faryd_qpaSubLHKM_OldQHX6kO631OI",
+    "refreshToken": "edcbb9eb58d7d3a18ec1b6c3e201defe3898f391a7cd23f79c7869dca9ca82ec101ede4ee26ad552"
 }
 Request method:	POST
 Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
@@ -120,33 +120,33 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "michal.stroman@yandex.ru",
-    "password": "vRCfRVCbrg",
-    "name": "Darcy Erdman"
+    "email": "gerardo.marks@yandex.ru",
+    "password": "byyqlovSJC",
+    "name": "Mrs. Jc Ryan"
 }
 HTTP/1.1 200 OK
-Date: Sat, 09 Mar 2024 11:44:32 GMT
+Date: Sun, 10 Mar 2024 13:11:24 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-ETag: W/"177-TdwHxs5aNxyXw/JBkLFmlWMGQdc"
+ETag: W/"176-UPzMMpcEvV25H6GlArCKGuUZl7M"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ggau5Y%2BBxzXelSCx%2BYkVx%2BitMZpZWqhxTELGGnqSG%2F1iv4W0g3NXqFlsz2PhD5TLwT3KI3shNuwR27tBf8LbJGlxKfwcB51Ov%2Fpnab5MhwsF2YUe%2BwPi90XjLxCJuiU7yoDwZkrB4lwetYX3PQCSZlc%2F3Vo%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2Ba7KjDT5fJmrsmo%2FLsDHu1uAbzZYrvqZTyVTEHo2%2BrtSDdvCul2NPGsMDE9HDoRPDg0DWkHVbZWQVAivto0xV%2BeD9yJmt6KSYwVJCnhLuOv8KVvr%2Fq9GAF2ygiCSF3Vpg54p6O6xvf3xogZSYb4c6BcjPKM%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad04b5f4d3609-FRA
+CF-RAY: 86238ce7ed501c11-FRA
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
 {
     "success": true,
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmEwOWVkMjgwMDAxYjNjODYxYiIsImlhdCI6MTcwOTk4NDY3MiwiZXhwIjoxNzA5OTg1ODcyfQ.42Mp54J_vevfmLoiKcAAL3odlvKhUCYIbmQ3NVTeXGQ",
-    "refreshToken": "2d659b86ccc95d51ca2f70949aca5120a8b8ebfc0ee799b3d37351341a71ec41b443df5c8710b34c",
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdiOWVkMjgwMDAxYjNjOWVkZiIsImlhdCI6MTcxMDA3NjI4NCwiZXhwIjoxNzEwMDc3NDg0fQ.8JoeBpXzooMRwdBAntg7mOg5qxAC2wD9QdvKs_lCUzc",
+    "refreshToken": "0065c55136f80176bd0e73b6fbe92c1475c2f88fbb293b8209a9ce12f3fe10a942b844e7f5cf0877",
     "user": {
-        "email": "michal.stroman@yandex.ru",
-        "name": "Darcy Erdman"
+        "email": "gerardo.marks@yandex.ru",
+        "name": "Mrs. Jc Ryan"
     }
 }
 Request method:	DELETE
@@ -156,19 +156,19 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmEwOWVkMjgwMDAxYjNjODYxYiIsImlhdCI6MTcwOTk4NDY3MiwiZXhwIjoxNzA5OTg1ODcyfQ.42Mp54J_vevfmLoiKcAAL3odlvKhUCYIbmQ3NVTeXGQ
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdiOWVkMjgwMDAxYjNjOWVkZiIsImlhdCI6MTcxMDA3NjI4MywiZXhwIjoxNzEwMDc3NDgzfQ.Q0mgGgkAxQx3faryd_qpaSubLHKM_OldQHX6kO631OI
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "michal.stroman@yandex.ru",
-    "password": "vRCfRVCbrg",
-    "name": "Darcy Erdman"
+    "email": "gerardo.marks@yandex.ru",
+    "password": "byyqlovSJC",
+    "name": "Mrs. Jc Ryan"
 }
 HTTP/1.1 202 Accepted
-Date: Sat, 09 Mar 2024 11:44:33 GMT
+Date: Sun, 10 Mar 2024 13:11:24 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 54
 Connection: keep-alive
@@ -176,10 +176,10 @@ X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nVNZSI0E%2FQC4LrYuvP%2BuLhGC9fi5xjCxV635iGkljMXHDNP%2FZOZxj64mMV%2FTIShEHpFqRbrEZzzEyWLclZULh8rP7lxrFVHZs%2FUAcxToce8i%2BJULbzz4VOO3docowIxe9Kk%2Fv3s6%2BCzxl27vKiPP97xxngc%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dqZ8HduxUvhiXIuV3nZmGsi04yC30FK9hLVKTrJJvd3wYcqr4BnxDfi37z43QAOuYJYco3iXLhg7obOzFouqhrKtvCJZ%2FuRBZalVwiCXsYJ4iAIia78drYtMRXDhIWIEgdHT1AzuoI9qaxiRXSktYyK4u0w%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad04d2e645d40-FRA
+CF-RAY: 86238cea0f8d5c62-FRA
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -188,7 +188,7 @@ alt-svc: h3=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="loginUserWithIncorrectEmail" classname="praktikum.model.LoginUserTest" time="0.971">
+  <testcase name="loginUserWithIncorrectEmail" classname="praktikum.model.LoginUserTest" time="0.95">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
 Proxy:			<none>
@@ -202,35 +202,35 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "nicol.halvorson@yandex.ru",
-    "password": "TSyMsxZSZT",
-    "name": "Dylan Mante V"
+    "email": "sophie.runolfsson@yandex.ru",
+    "password": "GaNoUzijUm",
+    "name": "Theda Durgan"
 }
 HTTP/1.1 200 OK
-Date: Sat, 09 Mar 2024 11:44:33 GMT
+Date: Sun, 10 Mar 2024 13:11:25 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmExOWVkMjgwMDAxYjNjODYxZSIsImlhdCI6MTcwOTk4NDY3MywiZXhwIjoxNzA5OTg1ODczfQ.EK8Hc9tW8Hvuk9l6NxOD5B57QLGATM3NrvaWXb3Rols
-ETag: W/"179-vhJvJ3y/kT8WgbjcCOl8S7x5V+A"
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdkOWVkMjgwMDAxYjNjOWVlMiIsImlhdCI6MTcxMDA3NjI4NSwiZXhwIjoxNzEwMDc3NDg1fQ.mafnPIJ-K_KuQjtniJm2Fd48emzLVEntpRUdq675EtA
+ETag: W/"17a-9OSSwHoP9DQoFrCNfJ3RyASDqic"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kI2UEXZuVNL9ikIQGKu22Uwxosz0Vj8s%2FeLNLyE%2F%2FbcTZs2n8ArgqC6OpvIpc%2BfhA13G3HktW84N%2BpDW7zeshrUm6BM22YvBASKmDGaBWINoLFLz4pSltKKLiGAgAR0EXpkxyN8WcdMLk0nq5KHkjhfZNzs%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ve2PunQCOjblT%2FJcv7jyliPNxee9NkQn8SRmldVLBcAyYSitjheQq8VHJnTP0gB9%2BSc0VIgihWa1MV3T%2BeIRbWoX13Yb0LQ3gXIqyIp%2FB33zQfIpO1HiqgUSw8eIajvYvC%2FrFO2h7%2Bow0iY1sChDKrqtu5Q%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad04fceaf196a-FRA
+CF-RAY: 86238cec7fb83642-FRA
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
 {
     "success": true,
     "user": {
-        "email": "nicol.halvorson@yandex.ru",
-        "name": "Dylan Mante V"
+        "email": "sophie.runolfsson@yandex.ru",
+        "name": "Theda Durgan"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmExOWVkMjgwMDAxYjNjODYxZSIsImlhdCI6MTcwOTk4NDY3MywiZXhwIjoxNzA5OTg1ODczfQ.EK8Hc9tW8Hvuk9l6NxOD5B57QLGATM3NrvaWXb3Rols",
-    "refreshToken": "3dfe237b9d6e7821411fb5613b7c93d6a533a027ff3442bab4d4b069667f671e0af8bf7eb4e11b25"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdkOWVkMjgwMDAxYjNjOWVlMiIsImlhdCI6MTcxMDA3NjI4NSwiZXhwIjoxNzEwMDc3NDg1fQ.mafnPIJ-K_KuQjtniJm2Fd48emzLVEntpRUdq675EtA",
+    "refreshToken": "44ab92a5616814dacc17f2142cfbb71665d69be0eba9045656b00e7c9029658fe461b394c7061e8a"
 }
 Request method:	POST
 Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
@@ -245,12 +245,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "ECJleYjf@yandex.ru",
-    "password": "TSyMsxZSZT",
-    "name": "Dylan Mante V"
+    "email": "LMKhYFUz@yandex.ru",
+    "password": "GaNoUzijUm",
+    "name": "Theda Durgan"
 }
 HTTP/1.1 401 Unauthorized
-Date: Sat, 09 Mar 2024 11:44:33 GMT
+Date: Sun, 10 Mar 2024 13:11:25 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 61
 Connection: keep-alive
@@ -258,10 +258,10 @@ X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"3d-ad9nrqlzQBuoZ0AId1U3rIgKU84"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=47qVTleudz3fbn3YLBhNc8Z5Ccc1m2r8%2BCwsU2G9xkW9R5bNO0RVwsbkNuPUSCYW7CMvL0ayUiUwluUcLC2bXyNUA9Dkt2uO%2FbDVFtLL4pYCF8AhD0hAEOMN684Jz%2FSgjPEaw919FIAvcrKyoHAvugn5Rwo%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=y1WXbtWi%2BGw2M42b5M6zYE9l0SWTVSAUPbPFRckf3wtEQEMBod6CjaUYtmJ145e%2FgSBTXNcc2Y%2FVwRvGX0dQORaGCk19O4Ms55iLHEOxXU8Thv62nCLW0Ox6Xga8xIEp8OGUaMlgCVPSa0l1sOrpBcOlqEE%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad0518e246aec-FRA
+CF-RAY: 86238cee8c8d9a09-FRA
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -269,7 +269,7 @@ alt-svc: h3=":443"; ma=86400
     "message": "email or password are incorrect"
 }
 HTTP/1.1 401 Unauthorized
-Date: Sat, 09 Mar 2024 11:44:33 GMT
+Date: Sun, 10 Mar 2024 13:11:25 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 61
 Connection: keep-alive
@@ -277,10 +277,10 @@ X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"3d-ad9nrqlzQBuoZ0AId1U3rIgKU84"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=47qVTleudz3fbn3YLBhNc8Z5Ccc1m2r8%2BCwsU2G9xkW9R5bNO0RVwsbkNuPUSCYW7CMvL0ayUiUwluUcLC2bXyNUA9Dkt2uO%2FbDVFtLL4pYCF8AhD0hAEOMN684Jz%2FSgjPEaw919FIAvcrKyoHAvugn5Rwo%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=y1WXbtWi%2BGw2M42b5M6zYE9l0SWTVSAUPbPFRckf3wtEQEMBod6CjaUYtmJ145e%2FgSBTXNcc2Y%2FVwRvGX0dQORaGCk19O4Ms55iLHEOxXU8Thv62nCLW0Ox6Xga8xIEp8OGUaMlgCVPSa0l1sOrpBcOlqEE%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad0518e246aec-FRA
+CF-RAY: 86238cee8c8d9a09-FRA
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -294,19 +294,19 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmExOWVkMjgwMDAxYjNjODYxZSIsImlhdCI6MTcwOTk4NDY3MywiZXhwIjoxNzA5OTg1ODczfQ.EK8Hc9tW8Hvuk9l6NxOD5B57QLGATM3NrvaWXb3Rols
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdkOWVkMjgwMDAxYjNjOWVlMiIsImlhdCI6MTcxMDA3NjI4NSwiZXhwIjoxNzEwMDc3NDg1fQ.mafnPIJ-K_KuQjtniJm2Fd48emzLVEntpRUdq675EtA
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "ECJleYjf@yandex.ru",
-    "password": "TSyMsxZSZT",
-    "name": "Dylan Mante V"
+    "email": "LMKhYFUz@yandex.ru",
+    "password": "GaNoUzijUm",
+    "name": "Theda Durgan"
 }
 HTTP/1.1 202 Accepted
-Date: Sat, 09 Mar 2024 11:44:34 GMT
+Date: Sun, 10 Mar 2024 13:11:25 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 54
 Connection: keep-alive
@@ -314,10 +314,10 @@ X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nC0Cc%2BKuBQbsQe3%2FgWW0TOAFzxdQOTUYAc4kxPPQ8FFGXk8Eg2%2FT52M4q5tO%2BZbwI9pdPGHv%2BPLmd%2BJjA1BU4hYfjmCKohqjBoc%2B4ajmzXB14qpKuXApez%2BcpEcENOhCsvgA64e%2FQWwZ8ENPggY099j8k1k%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GSSAOSUm0EZoTI0%2F%2FhlH8Bc7Y1HkAE%2FYprD73khTHyuvfylZsO1HbCKYsyowtJVTlAJSDFvKWdMf31sV9sytfvqCNknRbc%2FgEr7O7bXkpetAHhR8orWRmoFU2Xk6TZzcosZDhTwoJIxa2LMvcZicsZCpKfc%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad0532be92c29-FRA
+CF-RAY: 86238ceff9bd1cbd-FRA
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -326,7 +326,7 @@ alt-svc: h3=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="loginUserWithIncorrectPassword" classname="praktikum.model.LoginUserTest" time="1.05">
+  <testcase name="loginUserWithIncorrectPassword" classname="praktikum.model.LoginUserTest" time="1.01">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
 Proxy:			<none>
@@ -340,35 +340,35 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "jewel.haag@yandex.ru",
-    "password": "bMUTxClsCD",
-    "name": "Ralph Cole"
+    "email": "pasquale.toy@yandex.ru",
+    "password": "HlYzGMZEnG",
+    "name": "Abram Mertz"
 }
 HTTP/1.1 200 OK
-Date: Sat, 09 Mar 2024 11:44:34 GMT
+Date: Sun, 10 Mar 2024 13:11:25 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmEyOWVkMjgwMDAxYjNjODYyMCIsImlhdCI6MTcwOTk4NDY3NCwiZXhwIjoxNzA5OTg1ODc0fQ.WQA87p_e0H_hQim0QNaR-1_pXceuYVnYbTOcMl388u0
-ETag: W/"171-xD+YieIfWuyz/2F2fkFDrFn6vc0"
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdkOWVkMjgwMDAxYjNjOWVlNCIsImlhdCI6MTcxMDA3NjI4NSwiZXhwIjoxNzEwMDc3NDg1fQ.Y_OPMphUbQ0tWLf19vABXJY6LH4Uzn9hSKggcAizSw8
+ETag: W/"174-21r2JhIY7+9bQPhYKTddrX6z54o"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7NAWRxLXZ%2B%2BxchVMr7F15XZH19GvL%2Bw3gXpfAD7cIc4ERwirAHfKiDZKQIOC%2FIkbsueznTlOLi7DXUgoZOflNJnGDk8FSQAkPD4tnNyhZ5KkMDLBd7iGaqmPeT2%2BZPf5HNCctqUUOKpWOhvWgow4iS1d2G0%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5OlTJ4D9QsemxyuXpJbkawrObDVflfBg05j%2BS%2BWIKl%2FVK3uGdMeUhBxMPpjEmfi0ffLfsxcvXsVw232TN9cIIH%2BAVlCRIR1rhjsPdNWWT7eXdTFdnADnzJuoZENX%2FBDTvzFLwiSrDlS2mLhFPxenygsbe4o%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad055988418dd-FRA
+CF-RAY: 86238cf27ce79048-FRA
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
 {
     "success": true,
     "user": {
-        "email": "jewel.haag@yandex.ru",
-        "name": "Ralph Cole"
+        "email": "pasquale.toy@yandex.ru",
+        "name": "Abram Mertz"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmEyOWVkMjgwMDAxYjNjODYyMCIsImlhdCI6MTcwOTk4NDY3NCwiZXhwIjoxNzA5OTg1ODc0fQ.WQA87p_e0H_hQim0QNaR-1_pXceuYVnYbTOcMl388u0",
-    "refreshToken": "d1e5c42b3c2fd735ca2f9070631e68ef994fb54a9a338909c06d6855901393ba8855bd3cd3405249"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdkOWVkMjgwMDAxYjNjOWVlNCIsImlhdCI6MTcxMDA3NjI4NSwiZXhwIjoxNzEwMDc3NDg1fQ.Y_OPMphUbQ0tWLf19vABXJY6LH4Uzn9hSKggcAizSw8",
+    "refreshToken": "ee5cdbbfea0d18f010c6bf47b0e427c1817667d30a97021f1e7293ff0e7a06e01b21050c1e3e03f0"
 }
 Request method:	POST
 Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
@@ -383,12 +383,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "jewel.haag@yandex.ru",
-    "password": "zqrhnxlSdS",
-    "name": "Ralph Cole"
+    "email": "pasquale.toy@yandex.ru",
+    "password": "tEEQNlUaLp",
+    "name": "Abram Mertz"
 }
 HTTP/1.1 401 Unauthorized
-Date: Sat, 09 Mar 2024 11:44:34 GMT
+Date: Sun, 10 Mar 2024 13:11:26 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 61
 Connection: keep-alive
@@ -396,10 +396,10 @@ X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"3d-ad9nrqlzQBuoZ0AId1U3rIgKU84"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0yo5mxnjug3fqxsITUz2MLEA6piQwJ695RanoSGLV1Ln6AhO99EG4UZ8P8V9J%2BCbwfdiuswt4n0CMbKOZ1RA9XPUWwZNEk9jhrMgDDtfRuWwe6nmnLUywnfELlG1IgOZdYluGHBFC3BZACExRwWKq%2BWo14I%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V4vTxAzuZDgFttCDIXlHPtiDDztEuPiEf5MCzyrYA7ZmCBsJUBbSA%2BmfvqEsqSmC5vSbtbixUOtwo8rtru2JTNHNEo%2FsVbD9YL7ogAYS%2FGVOFK0B2KMII46etd%2B7cYsua7P9FOU3iH%2B1o%2FFJw%2B9oVeQq2Co%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad057685d9199-FRA
+CF-RAY: 86238cf47e1f5c4a-FRA
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -407,7 +407,7 @@ alt-svc: h3=":443"; ma=86400
     "message": "email or password are incorrect"
 }
 HTTP/1.1 401 Unauthorized
-Date: Sat, 09 Mar 2024 11:44:34 GMT
+Date: Sun, 10 Mar 2024 13:11:26 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 61
 Connection: keep-alive
@@ -415,10 +415,10 @@ X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"3d-ad9nrqlzQBuoZ0AId1U3rIgKU84"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0yo5mxnjug3fqxsITUz2MLEA6piQwJ695RanoSGLV1Ln6AhO99EG4UZ8P8V9J%2BCbwfdiuswt4n0CMbKOZ1RA9XPUWwZNEk9jhrMgDDtfRuWwe6nmnLUywnfELlG1IgOZdYluGHBFC3BZACExRwWKq%2BWo14I%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V4vTxAzuZDgFttCDIXlHPtiDDztEuPiEf5MCzyrYA7ZmCBsJUBbSA%2BmfvqEsqSmC5vSbtbixUOtwo8rtru2JTNHNEo%2FsVbD9YL7ogAYS%2FGVOFK0B2KMII46etd%2B7cYsua7P9FOU3iH%2B1o%2FFJw%2B9oVeQq2Co%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad057685d9199-FRA
+CF-RAY: 86238cf47e1f5c4a-FRA
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -432,19 +432,19 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWM0YmEyOWVkMjgwMDAxYjNjODYyMCIsImlhdCI6MTcwOTk4NDY3NCwiZXhwIjoxNzA5OTg1ODc0fQ.WQA87p_e0H_hQim0QNaR-1_pXceuYVnYbTOcMl388u0
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZWRiMTdkOWVkMjgwMDAxYjNjOWVlNCIsImlhdCI6MTcxMDA3NjI4NSwiZXhwIjoxNzEwMDc3NDg1fQ.Y_OPMphUbQ0tWLf19vABXJY6LH4Uzn9hSKggcAizSw8
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "jewel.haag@yandex.ru",
-    "password": "zqrhnxlSdS",
-    "name": "Ralph Cole"
+    "email": "pasquale.toy@yandex.ru",
+    "password": "tEEQNlUaLp",
+    "name": "Abram Mertz"
 }
 HTTP/1.1 202 Accepted
-Date: Sat, 09 Mar 2024 11:44:35 GMT
+Date: Sun, 10 Mar 2024 13:11:26 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 54
 Connection: keep-alive
@@ -452,10 +452,10 @@ X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jUbTq2bPxjss2sFBwBpFmIZsoNMelYL0Y9yIseJIjX54qswrjtYUW7OPDWtqmNYZJVQzw1tABaIcXekkg%2BSq7HHjoW8xLxP5ovgS0msR1WrK0hKwv6Lth4Lg70BrUtCjtpzkMGsLJ2ZiV6K8mU9ercTFsBQ%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qnPSwGdpyIh3Qza2Ed8XgxcNYKH29OysU7tBcGb4gRS5avtqKSpwxwunBN7QXflAGXMLGxSmuE8qvRthB1tnDk8mZ6epZxE%2FMcPeSX%2FK9rgGz8eATck5yOskPSBirWZADRD0Wsf3drQf1MWR6ZwHizJ9IBE%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 861ad0599c7f8f2e-FRA
+CF-RAY: 86238cf63d242baf-FRA
 alt-svc: h3=":443"; ma=86400
 
 {
